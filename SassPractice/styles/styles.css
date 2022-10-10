@@ -1,5 +1,10 @@
 body {
-  background-color: #333;
+  background-color: #fff;
+}
+
+header {
+  background-color: #474;
+  height: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */
