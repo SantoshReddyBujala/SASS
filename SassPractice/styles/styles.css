@@ -1,10 +1,28 @@
-body {
-  background-color: #fff;
-}
-
+/* Partials using */
+/* Nesting Examples */
 header {
   background-color: #474;
   height: 100px;
+}
+header p {
+  color: #000;
+}
+header button {
+  color: red;
+  width: 10em;
+  height: 3rem;
+}
+
+/* Individual Button styling */
+.warningBtn {
+  background-color: red;
+  color: #fff;
+  text-align: left;
+  padding: 1em;
+}
+
+body {
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */

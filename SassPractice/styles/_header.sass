@@ -1,0 +1,19 @@
+/* Partials using */
+@use './_variables' as var
+/* Nesting Examples */
+header
+    background-color: var.$primaryColor
+    height: 100px
+    p
+        color: var.$textColor
+    button
+        color: var.$warningColor
+        width: 10em
+        height: 3rem
+/* Individual Button styling */
+.warningBtn
+    background-color: var.$btnWarning
+    color: var.$bg
+    text-align: left
+    padding: 1em
+
