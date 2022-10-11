@@ -1,0 +1,17 @@
+@use './variables' as var
+%message-shared
+  border: 1px solid var.$bg
+  padding: 10px
+  color: var.$messageText
+.lmessage
+    @extend %message-shared
+.lsuccess
+  @extend %message-shared
+  border-color: var.$btnPrimary
+.lerror
+  @extend %message-shared
+  border-color: var.$btnWarning
+.lwarning
+  @extend %message-shared
+  border-color: var.$btnAlert
+
