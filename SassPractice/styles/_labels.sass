@@ -1,8 +1,9 @@
 @use './variables' as var
 %message-shared
   border: 1px solid var.$bg
-  padding: 10px
+  padding: var.$oneEm
   color: var.$messageText
+  font-family: Cambria
 .lmessage
     @extend %message-shared
 .lsuccess

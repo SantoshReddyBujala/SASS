@@ -2,7 +2,7 @@
 /* Nesting Examples */
 header {
   background-color: #474;
-  height: 100px;
+  height: 7em;
 }
 header p {
   color: #000;
@@ -14,7 +14,7 @@ header p:hover {
 header button {
   color: red;
   width: 10em;
-  height: 3rem;
+  height: 4em;
 }
 header button:hover {
   background-color: #844;
@@ -72,8 +72,9 @@ header a:active {
 
 .lwarning, .lerror, .lsuccess, .lmessage {
   border: 1px solid #fff;
-  padding: 10px;
+  padding: 1em;
   color: #333;
+  font-family: Cambria;
 }
 
 .lsuccess {
