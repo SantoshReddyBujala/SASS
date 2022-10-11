@@ -1,15 +1,28 @@
 /* Partials using */
-@use './_variables' as var
+@use './variables' as var
 /* Nesting Examples */
 header
     background-color: var.$primaryColor
     height: 100px
     p
         color: var.$textColor
+        &:hover
+            color: var.$bg
+            background-color: var.$secondaryClolor
     button
         color: var.$warningColor
         width: 10em
         height: 3rem
+        &:hover
+            background-color: var.$secondaryClolor
+    a
+        color: var.$secondaryClolor
+        padding: 2em
+        &:hover
+            color: var.$bg
+        &:active
+            color: var.$warningColor
+
 /* Individual Button styling */
 .warningBtn
     background-color: var.$btnWarning
