@@ -7,18 +7,67 @@ header {
 header p {
   color: #000;
 }
+header p:hover {
+  color: #fff;
+  background-color: #844;
+}
 header button {
   color: red;
   width: 10em;
   height: 3rem;
 }
+header button:hover {
+  background-color: #844;
+}
+header a {
+  color: #844;
+  padding: 2em;
+}
+header a:hover {
+  color: #fff;
+}
+header a:active {
+  color: red;
+}
 
 /* Individual Button styling */
 .warningBtn {
-  background-color: red;
+  background-color: Red;
   color: #fff;
   text-align: left;
   padding: 1em;
+}
+
+.info {
+  background: Gray;
+  box-shadow: 0 0 1px rgba(128, 128, 128, 0.25);
+  color: #fff;
+  padding: 2em;
+  border: 1px solid DarkGray;
+}
+
+.warning {
+  background: Red;
+  box-shadow: 0 0 1px rgba(255, 0, 0, 0.25);
+  color: #fff;
+  padding: 2em;
+  border: 1px solid DarkGray;
+}
+
+.success {
+  background: DarkGreen;
+  box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
+  color: #fff;
+  padding: 2em;
+  border: 1px solid DarkGray;
+}
+
+.alert {
+  background: Orange;
+  box-shadow: 0 0 1px rgba(255, 165, 0, 0.25);
+  color: #fff;
+  padding: 2em;
+  border: 1px solid DarkGray;
 }
 
 body {
