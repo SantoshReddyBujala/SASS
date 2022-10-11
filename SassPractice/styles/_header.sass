@@ -3,7 +3,7 @@
 /* Nesting Examples */
 header
     background-color: var.$primaryColor
-    height: 100px
+    height: var.$oneEm*7
     p
         color: var.$textColor
         &:hover
@@ -11,13 +11,13 @@ header
             background-color: var.$secondaryClolor
     button
         color: var.$warningColor
-        width: 10em
-        height: 3rem
+        width: var.$oneEm*10
+        height: var.$oneEm*4
         &:hover
             background-color: var.$secondaryClolor
     a
         color: var.$secondaryClolor
-        padding: 2em
+        padding: var.$oneEm*2
         &:hover
             color: var.$bg
         &:active
@@ -28,5 +28,5 @@ header
     background-color: var.$btnWarning
     color: var.$bg
     text-align: left
-    padding: 1em
+    padding: var.$oneEm
 
