@@ -70,6 +70,24 @@ header a:active {
   border: 1px solid DarkGray;
 }
 
+.lwarning, .lerror, .lsuccess, .lmessage {
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #333;
+}
+
+.lsuccess {
+  border-color: DarkGreen;
+}
+
+.lerror {
+  border-color: Red;
+}
+
+.lwarning {
+  border-color: Orange;
+}
+
 body {
   background-color: #fff;
 }
